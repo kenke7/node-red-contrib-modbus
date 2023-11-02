@@ -15,7 +15,7 @@
 module.exports = function (RED) {
   'use strict'
   // SOURCE-MAP-REQUIRED
-  const ModbusRTU = require('@open-p4nr/modbus-serial')
+  const ModbusRTU = require('@kenke7/modbus-serial')
   const coreServer = require('./core/modbus-server-core')
   const mbBasics = require('./modbus-basics')
   const internalDebugLog = require('debug')('contribModbus:flex:server')
