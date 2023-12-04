@@ -1,10 +1,10 @@
 {
   "name": "@kenke7/node-red-contrib-modbus",
-  "version": "5.28.1",
+  "version": "5.28.3",
   "private": false,
   "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
   "dependencies": {
-    "@kenke7/modbus-serial": "^8.1.1",
+    "@kenke7/modbus-serial": "^8.1.2",
     "@xstate/fsm": "~2.1.0",
     "bson": "~4.7.2",
     "debug": "~4.3.4",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/biancoroyal/node-red-contrib-modbus.git"
+    "url": "git+https://github.com/kenke7/node-red-contrib-modbus.git"
   },
   "node-red": {
     "version": ">=2",
